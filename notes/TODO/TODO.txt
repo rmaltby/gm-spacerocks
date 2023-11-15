@@ -1,0 +1,29 @@
+Ideas for things to implement:
+
+High Scores
+
+Music
+
+Ship acceleration animation/sound
+
+Background animations
+
+Enable player to choose:
+	Difficulty scaling (speed scaling rate with rock destruction 1%-100%?)
+	Alternate controls
+	Board size
+
+Powerups:
+	More: (Fireball, Freeze, Machine-gun, Shield, ???)
+	Powerups as bitmask instead of integer to enable multiple powerups at once
+		(may have to make certain powerups mutually exclusive if we use different bullet sprites)
+	Randomize powerup duration and population rate
+	Link explosion color to powerup generation and type
+
+Alternative Ships:
+	Different ships might have different:
+		Speed/brakes
+		Rotation rate
+		Builtin shields/powerups
+		Boosted likelihood of certain powerups
+		???
